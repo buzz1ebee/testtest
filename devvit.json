@@ -1,0 +1,18 @@
+{
+  "appVersion": 1,
+  "name": "stoncx-piece",
+  "version": "0.0.1",
+  "title": "Stoncx Piece",
+  "description": "Prototype",
+  "entryPoints": {
+    "server": "dist/server/index.js"
+  },
+  "assets": {
+    "webview": {
+      "default": "dist/client/index.html"
+    }
+  },
+  "permissions": {
+    "redditAPI": true
+  }
+}

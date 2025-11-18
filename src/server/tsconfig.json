@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@devvit/public-api",
+    "types": ["@devvit/public-api"],
+    "moduleResolution": "Bundler"
+  },
+  "include": ["./**/*.ts", "./**/*.tsx"]
+}
