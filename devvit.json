@@ -1,18 +1,17 @@
 {
   "appVersion": 1,
-  "name": "stoncx-piece",
+  "name": "stonkx-piece",
+  "dev": {
+    "subreddit": "stonkx_piece_dev"
+  },
   "version": "0.0.1",
   "title": "Stoncx Piece",
   "description": "Prototype",
-  "entryPoints": {
-    "server": "dist/server/index.js"
+  "server": {
+    "entry": "index.js"
   },
-  "assets": {
-    "webview": {
-      "default": "dist/client/index.html"
-    }
-  },
+  "webroot": "dist/client",
   "permissions": {
-    "redditAPI": true
+    "redis": true
   }
 }
