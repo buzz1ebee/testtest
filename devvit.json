@@ -1,16 +1,11 @@
 {
-  "appVersion": 1,
-  "name": "stonkx-piece",
+  "name": "stonkx-piece-dev-test",
   "dev": {
     "subreddit": "stonkx_piece_dev"
   },
-  "version": "0.0.1",
-  "title": "Stoncx Piece",
-  "description": "Prototype",
   "server": {
     "entry": "index.js"
   },
-  "webroot": "dist/client",
   "permissions": {
     "redis": true
   }
